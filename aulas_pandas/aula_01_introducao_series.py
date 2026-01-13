@@ -1,5 +1,5 @@
 """
-AULA 1: Introdução ao Pandas e Series
+AULA 1: Introdução ao Pandas e Series!!
 ======================================
 
 Objetivo: Aprender o básico sobre a biblioteca Pandas e o objeto Series
