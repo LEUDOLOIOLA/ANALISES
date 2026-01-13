@@ -146,11 +146,11 @@ print(serie_tempo)
 
 # Forward fill (propaga o último valor válido para frente)
 print("\nForward fill (ffill):")
-print(serie_tempo.fillna(method='ffill'))
+print(serie_tempo.ffill())
 
 # Backward fill (propaga o próximo valor válido para trás)
 print("\nBackward fill (bfill):")
-print(serie_tempo.fillna(method='bfill'))
+print(serie_tempo.bfill())
 
 print("\n9. INTERPOLAÇÃO DE VALORES")
 print("-" * 60)
@@ -285,8 +285,8 @@ print("""
 • .notnull() ou .notna()   → Identifica valores não-nulos
 • .dropna()                → Remove linhas/colunas com nulos
 • .fillna(valor)           → Preenche nulos com valor
-• .fillna(method='ffill')  → Preenche propagando para frente
-• .fillna(method='bfill')  → Preenche propagando para trás
+• .ffill()                 → Preenche propagando para frente
+• .bfill()                 → Preenche propagando para trás
 • .interpolate()           → Interpola valores faltantes
 • .replace()               → Substitui valores específicos
 """)
